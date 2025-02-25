@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:proudection/view/login_view.dart';
-import 'package:proudection/view/register_view.dart';
+import 'package:proudection/views/login_view.dart';
+import 'package:proudection/views/register_view.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
-class HomeView extends StatelessWidget {
-  const HomeView({super.key});
+class StartView extends StatelessWidget {
+  const StartView({super.key});
 
   @override
   Widget build(BuildContext context) {

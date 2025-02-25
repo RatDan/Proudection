@@ -16,6 +16,7 @@ class _RegisterViewState extends State<RegisterView> {
       appBar: AppBar(
         title: const Text("Rejestracja"),
         elevation: 4.0,
+        backgroundColor: Colors.orange,
       ),
       body: Center(
         child: Card(
